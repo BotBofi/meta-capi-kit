@@ -1,0 +1,6 @@
+# Kit Meta: desde el navegador sólo se pueden abrir meta.js, track.php y diagnostico.php.
+# config.php, meta.php, los .md y logs/ quedan cerrados.
+<FilesMatch "^(config|config\.example|meta)\.php$|\.md$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

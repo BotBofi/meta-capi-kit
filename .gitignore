@@ -1,0 +1,3 @@
+meta/config.php
+meta/logs/*.log.php
+.DS_Store
